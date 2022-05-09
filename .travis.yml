@@ -32,3 +32,4 @@ after_success:
   - docker push pedroreck/udagram-api-user:v1
   - docker push pedroreck/udagram-frontend:v1
   - docker push pedroreck/udagram-reverseproxy:v1
+  
