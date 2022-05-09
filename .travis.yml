@@ -9,7 +9,7 @@ services:
 install:
   - echo "nothing needs to be installed"
 
-# Scripts to be run such as tests
+# Scripts to be run such as test
 before_script:
   - echo "no tests"
 
@@ -32,4 +32,3 @@ after_success:
   - docker push pedroreck/udagram-api-user:v1
   - docker push pedroreck/udagram-frontend:v1
   - docker push pedroreck/udagram-reverseproxy:v1
-  
